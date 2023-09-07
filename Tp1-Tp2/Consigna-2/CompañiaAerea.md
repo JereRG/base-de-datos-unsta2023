@@ -1,6 +1,6 @@
-# *Base de Datos* - Compañia Aerea
+# *Base de Datos* - Compania Aerea
 
-En este archivo se visualizara como estara estructurada la base de datos relacional para una compañia aerea, en el cual remarcaremos las **entidades** con sus respectivos **atributos** y sus **relaciones.**
+En este archivo se visualizara como estara estructurada la base de datos relacional para una compania aerea, en el cual remarcaremos las **entidades** con sus respectivos **atributos** y sus **relaciones.**
 
 ---
 ___
