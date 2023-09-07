@@ -36,7 +36,7 @@ Esta tabla no cumple con la 1FN debido a los valores repetidos en la columna "Pr
 
 ## Enlaces / Programas Utilizados:
 
-* Repositorio Bitbucket: https://bitbucket.org/unsta-jeremias-rodriguez-guzman/workspace/projects/BAS
+* Repositorio Bitbucket: https://bitbucket.org/unsta-jeremias-rodriguez-guzman/trabajo-practico-n-1-trabajo-practico-n-2/src/master/
 
 * Repositorio Github: https://github.com/JereRG/Trabajo-Practico-N-1
 
