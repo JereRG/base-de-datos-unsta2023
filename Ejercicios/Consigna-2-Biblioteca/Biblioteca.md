@@ -1,4 +1,4 @@
-# *Base de Datos* - Centro Cultural
+# *Base de Datos* - Biblioteca
 
 En este archivo se visualizara como estara estructurada la base de datos relacional para una biblioteca, en el cual remarcaremos las **entidades** con sus respectivos **atributos** y sus **relaciones.**
 
