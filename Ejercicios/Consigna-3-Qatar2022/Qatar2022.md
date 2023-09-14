@@ -1,4 +1,4 @@
-# *Base de Datos* - Centro Cultural
+# *Base de Datos* - Qatar 2022
 
 En este archivo se visualizara como estara estructurada la base de datos relacional para el Mundial de Qatar 2022, en el cual remarcaremos las **entidades** con sus respectivos **atributos** y sus **relaciones.**
 
