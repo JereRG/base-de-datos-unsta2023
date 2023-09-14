@@ -91,7 +91,7 @@ CREATE TABLE Asunto_Procurador (
 
 * Repositorio Bitbucket: https://bitbucket.org/unsta-jeremias-rodriguez-guzman/trabajo-practico-n-1-trabajo-practico-n-2/src/master/
 
-* Repositorio Github: https://github.com/JereRG/Trabajo-Practico-N-1
+* Repositorio Github: https://github.com/JereRG/base-de-datos-unsta2023
 
 * Programa para realizar el diagrama: **Lucidchart**
 
