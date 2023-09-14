@@ -272,7 +272,7 @@ CREATE TABLE Venta_Extra (
 
 ## Enlaces / Programas Utilizados:
 
-* Repositorio Bitbucket: https://bitbucket.org/unsta-jeremias-rodriguez-guzman/trabajo-practico-n-1-trabajo-practico-n-2/src/master/
+* Repositorio Bitbucket: https://bitbucket.org/unsta-jeremias-rodriguez-guzman/base-de-datos-unsta-2023-trabajos-practicos-ejercicios/src/master/
 
 * Repositorio Github: https://github.com/JereRG/base-de-datos-unsta2023
 

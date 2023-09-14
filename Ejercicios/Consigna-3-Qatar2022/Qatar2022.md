@@ -165,7 +165,7 @@ CREATE TABLE Hincha (
 
 ## Enlaces / Programas Utilizados:
 
-* Repositorio Bitbucket: https://bitbucket.org/unsta-jeremias-rodriguez-guzman/ejercicios/src/master/
+* Repositorio Bitbucket: https://bitbucket.org/unsta-jeremias-rodriguez-guzman/base-de-datos-unsta-2023-trabajos-practicos-ejercicios/src/master/
 
 * Repositorio Github: https://github.com/JereRG/base-de-datos-unsta2023
 
