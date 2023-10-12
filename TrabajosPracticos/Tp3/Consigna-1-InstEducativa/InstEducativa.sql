@@ -6,20 +6,18 @@ CREATE TABLE Alumnos (
     Email VARCHAR(100)
 );
 
-
 -- Creando tabla Editorial
 CREATE TABLE Editoriales (
     Codigo INT PRIMARY KEY,
     Nombre VARCHAR(100)
 );
 
-
 -- Creando tabla Libro
 CREATE TABLE Libros (
     ISBN VARCHAR(13) PRIMARY KEY,
     Título VARCHAR(200),
     Editorial_ID INT,
-    FOREIGN KEY (Editorial_ID) REFERENCES Editorial(Codigo)
+    FOREIGN KEY (Editorial_ID) REFERENCES Editoriales(Codigo) -- Cambio "Editorial" a "Editoriales"
 );
 
 -- Creando tabla Alumno_Libro (Tabla Intermedia)
@@ -28,10 +26,9 @@ CREATE TABLE Alumno_Libros (
     Libro_ISBN VARCHAR(13),
     FechaLectura DATE,
     PRIMARY KEY (Alumno_Legajo, Libro_ISBN),
-    FOREIGN KEY (Alumno_Legajo) REFERENCES Alumno(Legajo),
-    FOREIGN KEY (Libro_ISBN) REFERENCES Libro(ISBN)
+    FOREIGN KEY (Alumno_Legajo) REFERENCES Alumnos(Legajo), -- Cambio "Alumno" a "Alumnos"
+    FOREIGN KEY (Libro_ISBN) REFERENCES Libros(ISBN) -- Cambio "Libro" a "Libros"
 );
-
 
 -- Insertando datos de ejemplo en la tabla Alumno
 INSERT INTO Alumnos (Legajo, Nombre, Apellido, Email)
@@ -47,7 +44,6 @@ VALUES
     (9, 'Jose', 'Rodriguez', 'jose.rodriguez@test.com'),
     (10, 'Ramiro', 'Lopez', 'ram.lopez@test.com');
 
-
 -- Insertando datos de ejemplo en la tabla Libro
 INSERT INTO Libros (ISBN, Título, Editorial_ID)
 VALUES
@@ -62,9 +58,8 @@ VALUES
     ('978-9123456789', 'Libro 9', 109),
     ('978-9876543210', 'Libro 10', 110);
 
-
 -- Insertando datos de ejemplo en la tabla Editorial
-INSERT INTO Editoriales (Código, Nombre)
+INSERT INTO Editoriales (Codigo, Nombre)
 VALUES
     (101, 'Editorial A'),
     (102, 'Editorial B'),
