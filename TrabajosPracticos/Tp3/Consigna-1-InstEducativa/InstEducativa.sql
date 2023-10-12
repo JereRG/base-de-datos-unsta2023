@@ -9,7 +9,7 @@ CREATE TABLE Alumnos (
 
 -- Creando tabla Editorial
 CREATE TABLE Editoriales (
-    Código INT PRIMARY KEY,
+    Codigo INT PRIMARY KEY,
     Nombre VARCHAR(100)
 );
 
@@ -19,7 +19,7 @@ CREATE TABLE Libros (
     ISBN VARCHAR(13) PRIMARY KEY,
     Título VARCHAR(200),
     Editorial_ID INT,
-    FOREIGN KEY (Editorial_ID) REFERENCES Editorial(Código)
+    FOREIGN KEY (Editorial_ID) REFERENCES Editorial(Codigo)
 );
 
 -- Creando tabla Alumno_Libro (Tabla Intermedia)
@@ -38,14 +38,14 @@ INSERT INTO Alumnos (Legajo, Nombre, Apellido, Email)
 VALUES
     (1, 'Jeremias', 'Guzman', 'jere.guzman@test.com'),
     (2, 'Marta', 'Perez', 'marta.perez@test.com'),
-    (2, 'Juan', 'Rodriguez', 'juan.rod@test.com'),
-    (2, 'Luis', 'Roldan', 'luis.roldan@test.com'),
-    (2, 'Carlos', 'Vazquez', 'carlos.vazquez@test.com'),
-    (2, 'Facundo', 'Gonzalez', 'f.gonzalez@test.com'),
-    (2, 'Antonio', 'Guzman', 'anton.guzman@test.com'),
-    (2, 'Luis', 'Perez', 'l.perez@test.com'),
-    (2, 'Jose', 'Rodriguez', 'jose.rodriguez@test.com'),
-    (2, 'Ramiro', 'Lopez', 'ram.lopez@test.com');
+    (3, 'Juan', 'Rodriguez', 'juan.rod@test.com'),
+    (4, 'Luis', 'Roldan', 'luis.roldan@test.com'),
+    (5, 'Carlos', 'Vazquez', 'carlos.vazquez@test.com'),
+    (6, 'Facundo', 'Gonzalez', 'f.gonzalez@test.com'),
+    (7, 'Antonio', 'Guzman', 'anton.guzman@test.com'),
+    (8, 'Luis', 'Perez', 'l.perez@test.com'),
+    (9, 'Jose', 'Rodriguez', 'jose.rodriguez@test.com'),
+    (10, 'Ramiro', 'Lopez', 'ram.lopez@test.com');
 
 
 -- Insertando datos de ejemplo en la tabla Libro
