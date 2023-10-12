@@ -93,20 +93,6 @@ VALUES
     (9, 'Jose', 'Rodriguez', 'jose.rodriguez@test.com'),
     (10, 'Ramiro', 'Lopez', 'ram.lopez@test.com');
 
--- Insertando datos de ejemplo en la tabla Libro
-INSERT INTO Libros (ISBN, Título, Editorial_ID)
-VALUES
-    ('978-1234567890', 'Libro 1', 101),
-    ('978-2345678901', 'Libro 2', 102),
-    ('978-3456789123', 'Libro 3', 103),
-    ('978-4567891234', 'Libro 4', 104),
-    ('978-5678912345', 'Libro 5', 105),
-    ('978-6789123456', 'Libro 6', 106),
-    ('978-7891234567', 'Libro 7', 107),
-    ('978-8912345678', 'Libro 8', 108),
-    ('978-9123456789', 'Libro 9', 109),
-    ('978-9876543210', 'Libro 10', 110);
-
 -- Insertando datos de ejemplo en la tabla Editorial
 INSERT INTO Editoriales (Codigo, Nombre)
 VALUES
@@ -121,6 +107,20 @@ VALUES
     (109, 'Editorial I'),
     (110, 'Editorial J');
 
+- Insertando datos de ejemplo en la tabla Libro
+INSERT INTO Libros (ISBN, Título, Editorial_ID)
+VALUES
+    ('978-1234567890', 'Libro 1', 101),
+    ('978-2345678901', 'Libro 2', 102),
+    ('978-3456789123', 'Libro 3', 103),
+    ('978-4567891234', 'Libro 4', 104),
+    ('978-5678912345', 'Libro 5', 105),
+    ('978-6789123456', 'Libro 6', 106),
+    ('978-7891234567', 'Libro 7', 107),
+    ('978-8912345678', 'Libro 8', 108),
+    ('978-9123456789', 'Libro 9', 109),
+    ('978-9876543210', 'Libro 10', 110);
+	
 -- Insertando datos de ejemplo en la tabla Alumno_Libro
 INSERT INTO Alumno_Libros (Alumno_Legajo, Libro_ISBN, FechaLectura)
 VALUES
