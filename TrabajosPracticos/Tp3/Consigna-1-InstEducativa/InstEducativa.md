@@ -68,7 +68,7 @@ CREATE TABLE Libros (
     ISBN VARCHAR(13) PRIMARY KEY,
     Título VARCHAR(200),
     Editorial_ID INT,
-    FOREIGN KEY (Editorial_ID) REFERENCES Editorial(Código)
+    FOREIGN KEY (Editorial_ID) REFERENCES Editoriales(Código)
 );
 
 -- Creando tabla Alumno_Libro (Tabla Intermedia)
@@ -77,8 +77,8 @@ CREATE TABLE Alumno_Libros (
     Libro_ISBN VARCHAR(13),
     FechaLectura DATE,
     PRIMARY KEY (Alumno_Legajo, Libro_ISBN),
-    FOREIGN KEY (Alumno_Legajo) REFERENCES Alumno(Legajo),
-    FOREIGN KEY (Libro_ISBN) REFERENCES Libro(ISBN)
+    FOREIGN KEY (Alumno_Legajo) REFERENCES Alumnos(Legajo),
+    FOREIGN KEY (Libro_ISBN) REFERENCES Libros(ISBN)
 );
 
 
