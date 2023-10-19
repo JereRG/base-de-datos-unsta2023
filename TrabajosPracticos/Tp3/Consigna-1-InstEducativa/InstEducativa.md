@@ -1,4 +1,4 @@
-# *Base de Datos* - Gabinete de Abogados
+# *Base de Datos* - Institucion Eductativa
 
 En este archivo se visualizara como estara estructurada la base de datos relacional para una institucion educativa para registrar libros que pueden ser leidos por los alumnos, en el cual remarcaremos las **entidades** con sus respectivos **atributos** y sus **relaciones.**
 
